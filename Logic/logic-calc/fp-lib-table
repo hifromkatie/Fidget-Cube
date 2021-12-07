@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name logic-calc)(type KiCad)(uri /home/katie/Projects/FidgetCube/circuit/Logic/logic-calc)(options "")(descr ""))
+)

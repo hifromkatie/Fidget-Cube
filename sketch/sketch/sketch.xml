@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/katie/Projects/FidgetCube/circuit/sketch/sketch/sketch.sch</source>
+    <date>Tue 23 Nov 2021 22:22:43 GMT</date>
+    <tool>Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sketch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW2">
+      <value>Multidirection_Switch_5</value>
+      <footprint>My_Footprints:MCMT5</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3169924.pdf</datasheet>
+      <fields>
+        <field name="F">1316987</field>
+        <field name="Farnell Part Number">1316987</field>
+      </fields>
+      <libsource lib="My_Library" part="Multidirection_Switch_5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616D993C</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push_GND</value>
+      <footprint>My_Footprints:MSLPT5252-BG</footprint>
+      <datasheet>https://uk.farnell.com/alcoswitch-te-connectivity/mslpt5252bg4mtr/tact-switch-spst-no-0-05a-12vdc/dp/2991002?st=mslpt5252bg</datasheet>
+      <fields>
+        <field name="F">2991002</field>
+        <field name="Farnell Part Number">2991002</field>
+      </fields>
+      <libsource lib="My_Library" part="SW_Push_GND" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616DB4C0</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MC33275ST-3.0T3G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
+      <datasheet>https://www.farnell.com/datasheets/1904484.pdf</datasheet>
+      <fields>
+        <field name="F">2728244</field>
+        <field name="Farnell Part Number">2728244</field>
+      </fields>
+      <libsource lib="My_Library" part="MC33275ST-3.0T3G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617059BD</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>My_Footprints:WS-TASV</footprint>
+      <datasheet>https://www.farnell.com/datasheets/1913847.pdf</datasheet>
+      <fields>
+        <field name="F">1867991</field>
+        <field name="Farnell Part Number">1867991</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61733BBA</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AVR64DA32</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3165060.pdf</datasheet>
+      <fields>
+        <field name="F">3576891</field>
+        <field name="Farnell Part Number">3576891</field>
+      </fields>
+      <libsource lib="My_Library" part="AVR64DA32" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617711D0</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2409038</field>
+        <field name="Farnell Part Number">2409038</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61754EE3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447339</field>
+        <field name="Farnell Part Number">2447339</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6175AB81</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2320813</field>
+        <field name="Farnell Part Number">2320813</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61762FB8</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">-</field>
+        <field name="Farnell Part Number">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61765889</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x30_Female</value>
+      <footprint>My_Footprints:screenConnector_30pin_0.7pitch</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">-</field>
+        <field name="Farnell Part Number">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x30_Female" description="Generic connector, single row, 01x30, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617807E0</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">9227784</field>
+        <field name="Farnell Part Number">9227784</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6179409B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">9227784</field>
+        <field name="Farnell Part Number">9227784</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61794B19</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>310k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2337128</field>
+        <field name="Farnell Part Number">2337128</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61834F4F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.22u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2627437</field>
+        <field name="Farnell Part Number">2627437</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6184FD53</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.22u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2627437</field>
+        <field name="Farnell Part Number">2627437</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61850457</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">9227784</field>
+        <field name="Farnell Part Number">9227784</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618B4D02</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">9227784</field>
+        <field name="Farnell Part Number">9227784</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618B5578</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x01_MountingPin</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">1125366</field>
+        <field name="Farnell Part Number">1125366</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_02x01_MountingPin" description="Generic connectable mounting pin connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617E3B85</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x30_Female">
+      <description>Generic connector, single row, 01x30, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x30_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_02x01_MountingPin">
+      <description>Generic connectable mounting pin connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x01_MountingPin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="AVR64DA32">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AVR64DA32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA3" type="BiDi"/>
+        <pin num="2" name="PA4" type="BiDi"/>
+        <pin num="3" name="PA5" type="BiDi"/>
+        <pin num="4" name="PA6" type="BiDi"/>
+        <pin num="5" name="PA7" type="BiDi"/>
+        <pin num="6" name="PC0" type="BiDi"/>
+        <pin num="7" name="PC1" type="BiDi"/>
+        <pin num="8" name="PC2" type="BiDi"/>
+        <pin num="9" name="PC3" type="BiDi"/>
+        <pin num="10" name="PD0" type="BiDi"/>
+        <pin num="11" name="PD1" type="BiDi"/>
+        <pin num="12" name="PD2" type="BiDi"/>
+        <pin num="13" name="PD3" type="BiDi"/>
+        <pin num="14" name="PD4" type="BiDi"/>
+        <pin num="15" name="PD5" type="BiDi"/>
+        <pin num="16" name="PD6" type="BiDi"/>
+        <pin num="17" name="PD7" type="BiDi"/>
+        <pin num="18" name="AVDD" type="power_in"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="PF0_(XTAL32K1)" type="BiDi"/>
+        <pin num="21" name="PF1_(XTAL32K2)" type="BiDi"/>
+        <pin num="22" name="PF2" type="BiDi"/>
+        <pin num="23" name="PF3" type="BiDi"/>
+        <pin num="24" name="PF4" type="BiDi"/>
+        <pin num="25" name="PF5" type="BiDi"/>
+        <pin num="26" name="PF6_(~RESET~)" type="BiDi"/>
+        <pin num="27" name="UPDI" type="BiDi"/>
+        <pin num="28" name="VDD" type="power_in"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="PA0_(EXTCLK)" type="BiDi"/>
+        <pin num="31" name="PA1" type="BiDi"/>
+        <pin num="32" name="PA2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="MC33275ST-3.0T3G">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC33275ST-3.0T3G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vout" type="power_out"/>
+        <pin num="4" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="Multidirection_Switch_5">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Multidirection_Switch_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="E" type="input"/>
+        <pin num="3" name="C" type="input"/>
+        <pin num="4" name="B" type="input"/>
+        <pin num="5" name="Common" type="input"/>
+        <pin num="6" name="D" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="SW_Push_GND">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_GND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="Case" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>/usr/share/kicad/library/Connector_Generic_MountingPin.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="My_Library">
+      <uri>/home/katie/kicad/libraries/My_Library.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U2" pin="19"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U2" pin="29"/>
+      <node ref="SW3" pin="3"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW2" pin="5"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J2" pin="MP"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J3" pin="30"/>
+      <node ref="J3" pin="8"/>
+      <node ref="J3" pin="29"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="2" name="IM1">
+      <node ref="U2" pin="7"/>
+      <node ref="J3" pin="11"/>
+    </net>
+    <net code="3" name="IM0">
+      <node ref="U2" pin="8"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="4" name="Net-(J3-Pad20)">
+      <node ref="J3" pin="20"/>
+    </net>
+    <net code="5" name="Net-(J3-Pad21)">
+      <node ref="J3" pin="21"/>
+    </net>
+    <net code="6" name="Net-(J3-Pad22)">
+      <node ref="J3" pin="22"/>
+    </net>
+    <net code="7" name="Net-(J3-Pad23)">
+      <node ref="J3" pin="23"/>
+    </net>
+    <net code="8" name="Net-(J3-Pad24)">
+      <node ref="J3" pin="24"/>
+    </net>
+    <net code="9" name="Net-(J3-Pad25)">
+      <node ref="J3" pin="25"/>
+    </net>
+    <net code="10" name="IM2">
+      <node ref="U2" pin="6"/>
+      <node ref="J3" pin="12"/>
+    </net>
+    <net code="11" name="Net-(J3-Pad17)">
+      <node ref="J3" pin="17"/>
+    </net>
+    <net code="12" name="Net-(J3-Pad16)">
+      <node ref="J3" pin="16"/>
+    </net>
+    <net code="13" name="A0">
+      <node ref="J3" pin="15"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="14" name="Net-(J3-Pad26)">
+      <node ref="J3" pin="26"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="15" name="+3V0">
+      <node ref="U2" pin="18"/>
+      <node ref="U2" pin="28"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J3" pin="9"/>
+      <node ref="J3" pin="6"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="J3" pin="28"/>
+    </net>
+    <net code="17" name="RESB">
+      <node ref="J3" pin="14"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="18" name="CSB">
+      <node ref="J3" pin="13"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="19" name="MOSI">
+      <node ref="J3" pin="19"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="20" name="Net-(J3-Pad7)">
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="21" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="22" name="Net-(C7-Pad2)">
+      <node ref="J3" pin="3"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C7-Pad1)">
+      <node ref="J3" pin="2"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="25" name="Net-(U2-Pad20)">
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="27" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="29" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="30" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad31)">
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad30)">
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="34" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="35" name="screenCLR">
+      <node ref="U2" pin="25"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="36" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="J3" pin="27"/>
+    </net>
+    <net code="37" name="SCK">
+      <node ref="U2" pin="1"/>
+      <node ref="J3" pin="18"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="38" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="39" name="PGD">
+      <node ref="U2" pin="27"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="40" name="directionB">
+      <node ref="SW2" pin="4"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="41" name="directionC">
+      <node ref="U2" pin="24"/>
+      <node ref="SW2" pin="3"/>
+    </net>
+    <net code="42" name="directionA">
+      <node ref="SW2" pin="1"/>
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="43" name="directionE">
+      <node ref="U2" pin="23"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="44" name="directionD">
+      <node ref="U2" pin="17"/>
+      <node ref="SW2" pin="6"/>
+    </net>
+    <net code="45" name="5Vin">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="46" name="RST">
+      <node ref="U2" pin="26"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+  </nets>
+</export>

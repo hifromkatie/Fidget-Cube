@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/katie/Projects/FidgetCube/circuit/Power/LiPo-power/LiPo-power.sch</source>
+    <date>Tue 23 Nov 2021 22:29:35 GMT</date>
+    <tool>Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LiPo-power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>MAX16054</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://www.farnell.com/datasheets/2001897.pdf</datasheet>
+      <fields>
+        <field name="F">2515822</field>
+      </fields>
+      <libsource lib="My_Library" part="MAX16054" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61644D30</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53398-0371_1x03-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">1125353</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61645FF9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616467B2</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MAX1675</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>https://www.farnell.com/datasheets/1904456.pdf</datasheet>
+      <fields>
+        <field name="F">2514146</field>
+      </fields>
+      <libsource lib="My_Library" part="MAX1675" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616602D5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>340K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2138549</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616623EF</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>260K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447312</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616627FD</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332586</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61663E25</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47u</value>
+      <footprint>Capacitor_SMD:CP_Elec_5x5.4</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3486024.pdf</datasheet>
+      <fields>
+        <field name="F">2611420</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616666AB</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>22u</value>
+      <footprint>Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder</footprint>
+      <datasheet>https://www.farnell.com/datasheets/2851560.pdf</datasheet>
+      <fields>
+        <field name="F">3227861</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61666E9C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447226</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6166BEAE</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332586</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61670E77</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47u</value>
+      <footprint>Capacitor_SMD:CP_Elec_5x5.4</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3486024.pdf</datasheet>
+      <fields>
+        <field name="F">2611420</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616714C5</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61685AA1</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>PMN48XP</value>
+      <footprint>Package_SO:TSOP-6_1.65x3.05mm_P0.95mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMN48XP.pdf</datasheet>
+      <fields>
+        <field name="F">3438538</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="PMN48XP" description="-4.1A Id, -20V Vds, P-Channel Power MOSFET, 48mOhm Ron, SC-74-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6168E813</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push_GND</value>
+      <footprint>My_Footprints:MSLPT5252-BG</footprint>
+      <datasheet>https://www.farnell.com/datasheets/2700094.pdf</datasheet>
+      <fields>
+        <field name="F"> 2991002 </field>
+      </fields>
+      <libsource lib="My_Library" part="SW_Push_GND" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616A13EB</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">1125366</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616A97D2</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">1125366</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616AA5A0</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">1125366</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616AAEC2</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">1125366</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616AB585</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">1125366</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616AD1FE</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_DPDT_x2+Case</value>
+      <footprint>My_Footprints:JSX08001SAQNL</footprint>
+      <datasheet>https://www.ckswitches.com/media/1419/jsx.pdf</datasheet>
+      <fields>
+        <field name="F">2435152</field>
+      </fields>
+      <libsource lib="My_Library" part="SW_DPDT_x2+Case" description="Switch, dual pole double throw, separate symbols"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616FC4A9</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MAX16054</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <datasheet>https://www.farnell.com/datasheets/2001897.pdf</datasheet>
+      <fields>
+        <field name="F">2515822</field>
+      </fields>
+      <libsource lib="My_Library" part="MAX16054" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6175B475</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6175B47B</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>PMN48XP</value>
+      <footprint>Package_SO:TSOP-6_1.65x3.05mm_P0.95mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMN48XP.pdf</datasheet>
+      <fields>
+        <field name="F">3438538</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="PMN48XP" description="-4.1A Id, -20V Vds, P-Channel Power MOSFET, 48mOhm Ron, SC-74-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6175B49F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6175B494</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>My_Footprints:Switch-SKST</footprint>
+      <datasheet>https://www.farnell.com/datasheets/2864506.pdf</datasheet>
+      <fields>
+        <field name="F">3261838</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61767E9D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3122976.pdf</datasheet>
+      <fields>
+        <field name="F">3548447</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61787D64</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>green</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3122976.pdf</datasheet>
+      <fields>
+        <field name="F">3548452</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617897E3</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>orange</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3122976.pdf</datasheet>
+      <fields>
+        <field name="F">3548449</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61791589</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>blue</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3122976.pdf</datasheet>
+      <fields>
+        <field name="F">3548453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6179158F</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3122976.pdf</datasheet>
+      <fields>
+        <field name="F">3548447</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61795750</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>green</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3122976.pdf</datasheet>
+      <fields>
+        <field name="F">3548452</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61795756</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>orange</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3122976.pdf</datasheet>
+      <fields>
+        <field name="F">3548449</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61799671</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>blue</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.farnell.com/datasheets/3122976.pdf</datasheet>
+      <fields>
+        <field name="F">3548453</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61799677</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617D19F2</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617D28F9</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617D35DA</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617D4677</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617D52D1</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617D5F3E</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617D6DD0</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617D7B59</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617F1CA0</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3015159</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617F2DF9</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016
+</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617E848B</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3130210</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617E8491</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="MAX16054">
+      <docs>https://www.farnell.com/datasheets/2001897.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX16054</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CLEAR" type="output"/>
+        <pin num="4" name="OUT" type="output"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="6" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="MAX1675">
+      <docs>https://www.farnell.com/datasheets/1904456.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX1675</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="LBI" type="input"/>
+        <pin num="3" name="LBO" type="input"/>
+        <pin num="4" name="REF" type="input"/>
+        <pin num="5" name="SHDN" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="LX" type="input"/>
+        <pin num="8" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="SW_DPDT_x2+Case">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2+Case</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+        <pin num="4" name="Case" type="input"/>
+        <pin num="4-UB" name="Case" type="input"/>
+        <pin num="5" name="C" type="passive"/>
+        <pin num="6" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="SW_Push_GND">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_GND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="Case" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="PMN48XP">
+      <description>-4.1A Id, -20V Vds, P-Channel Power MOSFET, 48mOhm Ron, SC-74-6</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PMN48XP.pdf</docs>
+      <footprints>
+        <fp>TSOP*1.65x3.05mm*P0.95mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PMN48XP</field>
+        <field name="Footprint">Package_SO:TSOP-6_1.65x3.05mm_P0.95mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="G" type="passive"/>
+        <pin num="4" name="S" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="My_Library">
+      <uri>/home/katie/kicad/libraries/My_Library.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D3-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D2-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D8-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="5" name="Net-(SW3-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="6" name="Net-(Q2-Pad3)">
+      <node ref="R7" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="7" name="+5V">
+      <node ref="U2" pin="8"/>
+      <node ref="Q2" pin="4"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="D10" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad2)">
+      <node ref="Q2" pin="5"/>
+      <node ref="D6" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="Q2" pin="6"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R6-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D7-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D6-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="12" name="Net-(D5-Pad1)">
+      <node ref="R12" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="13" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="14" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="15" name="Battery_on">
+      <node ref="Q1" pin="5"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="16" name="LowBatt">
+      <node ref="R16" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="17" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="19" name="Net-(D10-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="20" name="Net-(SW2-Pad1)">
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="SW2" pin="4"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R13" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(L1-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C1-Pad1)">
+      <node ref="U2" pin="4"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(R3-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="26" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="27" name="Net-(Q1-Pad3)">
+      <node ref="R2" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="28" name="Net-(SW1-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(SW1-Pad1)">
+      <node ref="SW2" pin="3"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="30" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="4"/>
+    </net>
+  </nets>
+</export>

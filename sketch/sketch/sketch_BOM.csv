@@ -1,0 +1,47 @@
+Source:,/home/katie/Projects/FidgetCube/circuit/sketch/sketch/sketch.sch,,,,,,
+Date:,Tue 23 Nov 2021 22:22:43 GMT,,,,,,
+Tool:,Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1,,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,,
+Component Count:,18,,,,,,
+,,,,,,,
+Individual Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Farnell Part Number
+,,C1,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,2409038
+,,C2,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,2320813
+,,C3,4.7u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,9227784
+,,C4,4.7u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,9227784
+,,C5,0.22u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,2627437
+,,C6,0.22u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,2627437
+,,C7,4.7u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,9227784
+,,C8,4.7u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,9227784
+,,J1,Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~,-
+,,J2,Conn_02x01_MountingPin,Connector_Generic_MountingPin:Conn_02x01_MountingPin,Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical,~,1125366
+,,J3,Conn_01x30_Female,Connector:Conn_01x30_Female,My_Footprints:screenConnector_30pin_0.7pitch,~,-
+,,R1,330,Device:R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,2447339
+,,R2,310k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,2337128
+,,SW1,SW_Push,Switch:SW_Push,My_Footprints:WS-TASV,https://www.farnell.com/datasheets/1913847.pdf,1867991
+,,SW2,Multidirection_Switch_5,My_Library:Multidirection_Switch_5,My_Footprints:MCMT5,https://www.farnell.com/datasheets/3169924.pdf,1316987
+,,SW3,SW_Push_GND,My_Library:SW_Push_GND,My_Footprints:MSLPT5252-BG,https://uk.farnell.com/alcoswitch-te-connectivity/mslpt5252bg4mtr/tact-switch-spst-no-0-05a-12vdc/dp/2991002?st=mslpt5252bg,2991002
+,,U1,MC33275ST-3.0T3G,My_Library:MC33275ST-3.0T3G,Package_TO_SOT_SMD:SOT-223,https://www.farnell.com/datasheets/1904484.pdf,2728244
+,,U2,AVR64DA32,My_Library:AVR64DA32,Package_QFP:TQFP-32_7x7mm_P0.8mm,https://www.farnell.com/datasheets/3165060.pdf,3576891
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Collated Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,F
+1,1,C1,1u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,2409038
+2,1,C2,100n,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,2320813
+3,4,"C3, C4, C7, C8",4.7u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,9227784
+4,2,"C5, C6",0.22u,Device:C,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,2627437
+5,1,J1,Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~,-
+6,1,J2,Conn_02x01_MountingPin,Connector_Generic_MountingPin:Conn_02x01_MountingPin,Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical,~,1125366
+7,1,J3,Conn_01x30_Female,Connector:Conn_01x30_Female,My_Footprints:screenConnector_30pin_0.7pitch,~,-
+8,1,R1,330,Device:R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,2447339
+9,1,R2,310k,Device:R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,2337128
+10,1,SW1,SW_Push,Switch:SW_Push,My_Footprints:WS-TASV,https://www.farnell.com/datasheets/1913847.pdf,1867991
+11,1,SW2,Multidirection_Switch_5,My_Library:Multidirection_Switch_5,My_Footprints:MCMT5,https://www.farnell.com/datasheets/3169924.pdf,1316987
+12,1,SW3,SW_Push_GND,My_Library:SW_Push_GND,My_Footprints:MSLPT5252-BG,https://uk.farnell.com/alcoswitch-te-connectivity/mslpt5252bg4mtr/tact-switch-spst-no-0-05a-12vdc/dp/2991002?st=mslpt5252bg,2991002
+13,1,U1,MC33275ST-3.0T3G,My_Library:MC33275ST-3.0T3G,Package_TO_SOT_SMD:SOT-223,https://www.farnell.com/datasheets/1904484.pdf,2728244
+14,1,U2,AVR64DA32,My_Library:AVR64DA32,Package_QFP:TQFP-32_7x7mm_P0.8mm,https://www.farnell.com/datasheets/3165060.pdf,3576891

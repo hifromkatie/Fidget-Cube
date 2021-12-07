@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/katie/Projects/FidgetCube/circuit/Logic/logic-calc/logic-calc.sch</source>
+    <date>Tue 23 Nov 2021 22:27:26 GMT</date>
+    <tool>Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>logic-calc.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>AVR64DA32</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <fields>
+        <field name="F">	3576891</field>
+      </fields>
+      <libsource lib="My_Library" part="AVR64DA32" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CD64E</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2320813</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CDFD4</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2320813</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CE2A2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447339</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CE6EC</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>My_Footprints:WS-TASV</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">	1867991</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617CF255</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push_GND</value>
+      <footprint>My_Footprints:MSLPT5252-BG</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">	2991002</field>
+      </fields>
+      <libsource lib="My_Library" part="SW_Push_GND" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617E5F65</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push_GND</value>
+      <footprint>My_Footprints:MSLPT5252-BG</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">	2991002</field>
+      </fields>
+      <libsource lib="My_Library" part="SW_Push_GND" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617E69D6</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>Yellow</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">1686073</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617F4B58</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>Yellow</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">1686073</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617F5951</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617FF966</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617FFF67</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6181052C</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3130210</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61810DC9</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61820EA4</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3130210</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61820EAA</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6182227E</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3130210</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61822284</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618237E4</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3130210</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618237EA</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61824D87</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3130210</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61824D8D</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2332016</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61826665</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3130210</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6182666B</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push_GND</value>
+      <footprint>My_Footprints:MSLPT5252-BG</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">	2991002</field>
+      </fields>
+      <libsource lib="My_Library" part="SW_Push_GND" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618AC904</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push_GND</value>
+      <footprint>My_Footprints:MSLPT5252-BG</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">	2991002</field>
+      </fields>
+      <libsource lib="My_Library" part="SW_Push_GND" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618B3013</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C0C5A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3015159</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C0C60</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C0C6B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3015159</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C0C71</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C0C78</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3015159</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C0C7E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C0C85</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3015159</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C0C8B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618CB032</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3015159</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618CB038</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">2447359</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618CB03F</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">3015159</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618CB045</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_MountingPin</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">	1125366</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x02_MountingPin" description="Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618029E9</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="F">NA</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61814F7A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x02_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_MountingPin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="AVR64DA32">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AVR64DA32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA3" type="BiDi"/>
+        <pin num="2" name="PA4" type="BiDi"/>
+        <pin num="3" name="PA5" type="BiDi"/>
+        <pin num="4" name="PA6" type="BiDi"/>
+        <pin num="5" name="PA7" type="BiDi"/>
+        <pin num="6" name="PC0" type="BiDi"/>
+        <pin num="7" name="PC1" type="BiDi"/>
+        <pin num="8" name="PC2" type="BiDi"/>
+        <pin num="9" name="PC3" type="BiDi"/>
+        <pin num="10" name="PD0" type="BiDi"/>
+        <pin num="11" name="PD1" type="BiDi"/>
+        <pin num="12" name="PD2" type="BiDi"/>
+        <pin num="13" name="PD3" type="BiDi"/>
+        <pin num="14" name="PD4" type="BiDi"/>
+        <pin num="15" name="PD5" type="BiDi"/>
+        <pin num="16" name="PD6" type="BiDi"/>
+        <pin num="17" name="PD7" type="BiDi"/>
+        <pin num="18" name="AVDD" type="power_in"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="PF0_(XTAL32K1)" type="BiDi"/>
+        <pin num="21" name="PF1_(XTAL32K2)" type="BiDi"/>
+        <pin num="22" name="PF2" type="BiDi"/>
+        <pin num="23" name="PF3" type="BiDi"/>
+        <pin num="24" name="PF4" type="BiDi"/>
+        <pin num="25" name="PF5" type="BiDi"/>
+        <pin num="26" name="PF6_(~RESET~)" type="BiDi"/>
+        <pin num="27" name="UPDI" type="BiDi"/>
+        <pin num="28" name="VDD" type="power_in"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="PA0_(EXTCLK)" type="BiDi"/>
+        <pin num="31" name="PA1" type="BiDi"/>
+        <pin num="32" name="PA2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="SW_Push_GND">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_GND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="Case" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>/usr/share/kicad/library/Connector_Generic_MountingPin.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="My_Library">
+      <uri>/home/katie/kicad/libraries/My_Library.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="bin3">
+      <node ref="U1" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="2" name="bin2">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="3" name="bin1">
+      <node ref="U1" pin="31"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="4" name="bin0">
+      <node ref="U1" pin="30"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="7" name="CountDOWN">
+      <node ref="U1" pin="4"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="SW4" pin="3"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="SW5" pin="3"/>
+      <node ref="D5" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="U1" pin="19"/>
+      <node ref="U1" pin="29"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="J1" pin="MP"/>
+      <node ref="J1" pin="1"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW3" pin="3"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D3-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="11" name="AND">
+      <node ref="U1" pin="16"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="12" name="XNOR">
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="13" name="NOR">
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="14" name="XOR">
+      <node ref="U1" pin="10"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="15" name="OR">
+      <node ref="U1" pin="8"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="16" name="NAND">
+      <node ref="U1" pin="17"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="17" name="CountUP">
+      <node ref="U1" pin="25"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="18" name="Bon">
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="19" name="Bin">
+      <node ref="U1" pin="15"/>
+      <node ref="SW5" pin="2"/>
+    </net>
+    <net code="20" name="+5V">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U1" pin="28"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="29" name="RST">
+      <node ref="U1" pin="26"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="30" name="PGD">
+      <node ref="U1" pin="27"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="31" name="bin5">
+      <node ref="U1" pin="3"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="32" name="bin4">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="33" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="34" name="Net-(D5-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="35" name="Aon">
+      <node ref="U1" pin="9"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="36" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="37" name="Ain">
+      <node ref="SW4" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="38" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="39" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D10-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="41" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="42" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="44" name="Net-(D8-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D7-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+  </nets>
+</export>
